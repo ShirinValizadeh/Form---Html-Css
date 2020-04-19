@@ -1,0 +1,479 @@
+@mixin formStyle {
+    position: relative;
+    height: 55px;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.f-name {
+    @include formStyle;
+    top: 20%;
+
+    & label {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: $beige;
+        font-size: 20px;
+        pointer-events: none;
+        border-bottom: 1px solid $beige;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    input {
+        position: absolute;
+        bottom: -5px;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        color: $beige;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+}
+
+.transation1>label {
+    transition-property: font-size;
+    transition-duration: .5s;
+}
+
+.transation1>input:focus+label {
+    font-size: 30px;
+}
+
+.transation1>select:focus+label {
+    font-size: 30px;
+}
+
+.l-name {
+    @include formStyle;
+    top: 30%;
+
+    & input {
+        font-size: 20px;
+        position: absolute;
+        bottom: -5px;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        color: $beige;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+    & label {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid $beige;
+        font-size: 20px;
+        color: $beige;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+}
+
+.date {
+    position: relative;
+    height: 60px;
+    width: 50%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    & input {
+        width: 100%;
+        outline: none;
+        border-radius: 10px;
+        color: $beige;
+        background-color: #000;
+    }
+
+    & label {
+        font-size: 'medium';
+        position: absolute;
+        bottom: 60px;
+        left: -140px;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        color: $beige;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+}
+
+.email {
+    @include formStyle;
+    top: 50%;
+
+    input {
+        font-size: 20px;
+        position: absolute;
+        bottom: -5px;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        color: $beige;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+    }
+
+    label {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid $beige;
+        color: $beige;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+
+.form {
+    @include formStyle;
+    top: 20%;
+
+    & input {
+        position: absolute;
+        bottom: -5px;
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+        color: rgb(54, 53, 53);
+        font-size: 20px;
+        padding-top: 20px;
+        border: none;
+        outline: none;
+        color: $beige;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+    }
+
+}
+
+.form .transation>label {
+    transition-property: font-size;
+    transition-duration: .5s;
+}
+
+.transation>input:focus+label {
+    font-size: 30px;
+}
+
+.transation>select:focus+label {
+    font-size: 30px;
+}
+
+.form label {
+
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid $beige;
+    color: $beige;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form2 {
+    position: relative;
+    height: 55px;
+    width: 50%;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form2 input {
+    font-size: 20px;
+    position: absolute;
+    bottom: -5px;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    color: $beige;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+}
+
+.form2 label {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid $beige;
+    color: $beige;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.form3 {
+    position: relative;
+    height: 60px;
+    width: 50%;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form3 select {
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    color: $beige;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.form3 label {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: $beige;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.form4 {
+    @include formStyle;
+    position: relative;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    & input[type=file] {
+        width: 60%;
+        height: 100%;
+        // color:$beige;
+        // background-color:$beige ;
+        border: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    & label {
+        position: absolute;
+        bottom: 23px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+}
+
+.btn {
+    border: 2px solid $beige;
+    background-color: beige;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    @include content;
+}
+
+section {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #000;
+
+    & video {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        object-fit: cover;
+        height: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        // display: none;
+        // position: absolute;
+        // top: 11%;
+        // left: -14%;
+        // -o-object-fit: cover;
+        // object-fit: cover;
+        // height: 78%;
+        // width: 127%;
+        // -webkit-transform: translate(-50%, -50%);
+        // border-radius: 20px;
+        // transform: rotate(270deg);
+
+    }
+
+    & .color {
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        height: 50%;
+        width: 100%;
+
+        background-color: #000;
+        transform: rotateY(180deg);
+        transform: translate(-50%, -50%);
+    }
+}
+
+.smoke-animation {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    color: $beige;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.smoke-animation span {
+    display: inline-block;
+    animation-timing-function: linnear;
+    animation: animate 1s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    opacity: 0;
+}
+
+#radio-animation3:checked~.form-section-bg .color {
+    display: block;
+}
+
+#radio-animation3:checked~.form-section-bg .container-formular .form-div3 .video {
+    display: block;
+}
+
+
+
+#radio-animation3:checked~.form-section-bg .container-formular .form-div3 .smoke-animation>span {
+    display: inline-block;
+    animation-play-state: running;
+}
+
+.smoke-animation span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.smoke-animation span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.smoke-animation span:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.smoke-animation span:nth-child(4) {
+    animation-delay: 2s;
+}
+
+.smoke-animation span:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+.smoke-animation span:nth-child(7) {
+    animation-delay: 3s;
+}
+
+.smoke-animation span:nth-child(8) {
+    animation-delay: 3.5s;
+}
+
+.smoke-animation span:nth-child(9) {
+    animation-delay: 4s;
+}
+
+.smoke-animation span:nth-child(11) {
+    animation-delay: 4.5s;
+}
+
+.smoke-animation span:nth-child(12) {
+    animation-delay: 5s;
+}
+
+.smoke-animation span:nth-child(14) {
+    animation-delay: 5.5s;
+}
+
+.smoke-animation span:nth-child(15) {
+    animation-delay: 6s;
+}
+
+.smoke-animation span:nth-child(16) {
+    animation-delay: 6.5s;
+}
+
+.smoke-animation span:nth-child(17) {
+    animation-delay: 7s;
+}
+
+.smoke-animation span:nth-child(18) {
+    animation-delay: 7.5s;
+}
+
+.smoke-animation span:nth-child(19) {
+    animation-delay: 8s;
+}
+
+.smoke-animation span:nth-child(20) {
+    animation-delay: 8.5s;
+}
+
+.smoke-animation span:nth-child(21) {
+    animation-delay: 9s;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+
+
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0px);
+    }
+}
+
+@media only screen and (max-width:600px) {}

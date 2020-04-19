@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== FONTS =====*/
+
+
+/* ===== END FONTS =====*/
+
+/* ===== COLORS / SIZES =====*/
+
+$green: #229977;
+$light-gray: #777;
+$dark-gray: rgb(32, 35, 48);
+$form-color: #f2f1c6;
+$beige:#f2f1c6;
+$orang:#FF6138;
+
+$headline: 30px;
+$content: 18px;
+
+/* ===== END COLORS =====*/
+
+/* ===== MIXIN =====*/
+
+@mixin headline {
+    font-size: $headline;
+    font-family: 'extra-bold';
+    color: $green;
+}
+
+@mixin content {
+    font-size: $content;
+    font-family: 'medium';
+    color: $dark-gray;
+}
+
+/* ===== END MIXIN =====*/

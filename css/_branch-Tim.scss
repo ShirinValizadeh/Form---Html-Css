@@ -1,0 +1,999 @@
+/* ===== HEADER =====*/
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: $dark-gray;
+    position: relative;
+}
+
+
+.tim-background {
+
+    width: 100%;
+    background-color: #fff;
+    padding: 40px 0;
+
+    .tim-form-container {
+        background-color: $dark-gray;
+        width: 500px;
+        height: 700px;
+        margin: 0 auto 20px auto;
+        border: 4px solid $green;
+        border-radius: 20px;
+        box-shadow: 0 10px 10px -5px;
+    }
+}
+
+
+/* ===== END HEADER =====*/
+
+/* ===== LOGO ANIMATION =====*/
+
+
+
+#logo {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 457;
+    stroke-dashoffset: 457;
+    animation: line-animation1 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 429;
+    stroke-dashoffset: 429;
+    animation: line-animation2 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 577;
+    stroke-dashoffset: 577;
+    animation: line-animation3 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 199;
+    stroke-dashoffset: 199;
+    animation: line-animation4 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 349;
+    stroke-dashoffset: 349;
+    animation: line-animation5 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 262;
+    stroke-dashoffset: 262;
+    animation: line-animation6 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 429;
+    stroke-dashoffset: 429;
+    animation: line-animation7 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 205;
+    stroke-dashoffset: 205;
+    animation: line-animation8 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 503;
+    stroke-dashoffset: 503;
+    animation: line-animation9 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(10) {
+    stroke-dasharray: 361;
+    stroke-dashoffset: 361;
+    animation: line-animation10 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(11) {
+    stroke-dasharray: 532;
+    stroke-dashoffset: 532;
+    animation: line-animation11 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+#logo path:nth-child(12) {
+    stroke-dasharray: 187;
+    stroke-dashoffset: 187;
+    animation: line-animation12 18s ease forwards infinite;
+    animation-delay: 1s;
+}
+
+/* @keyframes line-animation {
+      to {
+          stroke-dashoffset: 0;
+      }
+  } */
+
+@keyframes line-animation1 {
+    0% {
+        stroke-dashoffset: 457;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 457;
+    }
+}
+
+@keyframes line-animation2 {
+    0% {
+        stroke-dashoffset: 429;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 429;
+    }
+}
+
+@keyframes line-animation3 {
+    0% {
+        stroke-dashoffset: 577;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 577;
+    }
+}
+
+@keyframes line-animation4 {
+    0% {
+        stroke-dashoffset: 199;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 199;
+    }
+}
+
+@keyframes line-animation5 {
+    0% {
+        stroke-dashoffset: 349;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 349;
+    }
+}
+
+@keyframes line-animation6 {
+    0% {
+        stroke-dashoffset: 262;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 262;
+    }
+}
+
+@keyframes line-animation7 {
+    0% {
+        stroke-dashoffset: 429;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 429;
+    }
+}
+
+@keyframes line-animation8 {
+    0% {
+        stroke-dashoffset: 205;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 205;
+    }
+}
+
+@keyframes line-animation9 {
+    0% {
+        stroke-dashoffset: 503;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 503;
+    }
+}
+
+@keyframes line-animation10 {
+    0% {
+        stroke-dashoffset: 361;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 361;
+    }
+}
+
+@keyframes line-animation11 {
+    0% {
+        stroke-dashoffset: 532;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 532;
+    }
+}
+
+@keyframes line-animation12 {
+    0% {
+        stroke-dashoffset: 187;
+    }
+
+    30% {
+        fill: transparent;
+    }
+
+    32% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    68% {
+        stroke-dashoffset: 0;
+        fill: #FF6138;
+    }
+
+    70% {
+        stroke-dashoffset: 0;
+        fill: transparent;
+    }
+
+    100% {
+        stroke-dashoffset: 187;
+    }
+}
+
+/* ===== END LOGO ANIMATION =====*/
+
+
+/* ===== PROGRESS-BAR =====*/
+
+
+#radio-animation1:checked~.progress-container>#container>#circle {
+    width: 90px;
+    height: 90px;
+    background-color: $dark-gray;
+    border: 5px solid $orang;
+    border-radius: 50%;
+    position: relative;
+    left: -5px;
+    top: -35px;
+    transition-duration: 1.5s;
+
+    &>div:nth-child(1) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(2) {
+        background-color: $beige;
+        width: 8px;
+        height: 30px;
+        position: absolute;
+        left: 29px;
+        top: 13px;
+        transform: rotate(45deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(3) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 40px;
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(4) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(5) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 27px;
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(6) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+        transition-duration: 1.5s;
+    }
+
+}
+
+#radio-animation1:checked~.progress-container>#container>.progress-span {
+    width: 80px;
+
+}
+
+#radio-animation2:checked~.progress-container>#container>#circle {
+    left: 350px;
+    top: -35px;
+    transform: rotate(360deg);
+
+    &>div:nth-child(1) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 39px;
+        top: 26px;
+        transform: rotate(34deg);
+        transition-duration: 1.5s;
+
+    }
+
+    &>div:nth-child(2) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 40px;
+        top: 9px;
+        transform: rotate(123deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(3) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 28px;
+        top: 11px;
+        transform: rotate(35deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(4) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 42px;
+        top: 22px;
+        transform: rotate(34deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(5) {
+        background-color: $beige;
+        width: 8px;
+        height: 30px;
+        position: absolute;
+        left: 37px;
+        top: 44px;
+        transform: rotate(90deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(6) {
+        background-color: $beige;
+        width: 8px;
+        height: 25px;
+        position: absolute;
+        left: 32px;
+        top: 36px;
+        transform: rotate(34deg);
+        transition-duration: 1.5s;
+
+    }
+
+}
+
+#radio-animation2:checked~.progress-container>#container>.progress-span {
+    width: 400px;
+}
+
+#radio-animation3:checked~.progress-container>#container>#circle {
+    left: 705px;
+    top: -35px;
+    transform: rotate(0deg);
+
+    &>div:nth-child(1) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 45px;
+        top: 19px;
+        transform: rotate(35deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(2) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 43px;
+        top: 9px;
+        transform: rotate(123deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(3) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 34px;
+        top: 46px;
+        transform: rotate(125deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(4) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 31px;
+        top: 10px;
+        transform: rotate(35deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(5) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 44px;
+        top: 32px;
+        transform: rotate(-55deg);
+        transition-duration: 1.5s;
+    }
+
+    &>div:nth-child(6) {
+        background-color: $beige;
+        width: 8px;
+        height: 22px;
+        position: absolute;
+        left: 46px;
+        top: 42px;
+        transform: rotate(-143deg);
+        transition-duration: 1.5s;
+    }
+}
+
+#radio-animation3:checked~.progress-container>#container>.progress-span {
+    width: 786px;
+}
+
+/* ===== RADIO D-NONE =====*/
+
+input[type="radio"] {
+    display: none;
+}
+
+
+#container {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    height: 30px;
+    border: 5px solid $orang;
+    border-radius: 70px;
+    position: relative;
+
+    &>.progress-span {
+        display: block;
+        position: absolute;
+        width: 80px;
+        height: 20px;
+        background-color: $beige;
+        border-radius: 70px;
+        transition-duration: 1.5s;
+    }
+
+    #circle {
+        width: 90px;
+        height: 90px;
+        background-color: $dark-gray;
+        border: 5px solid $orang;
+        border-radius: 50%;
+        position: relative;
+        left: -5px;
+        top: -35px;
+        transition-duration: 1.5s;
+
+
+        &>div {
+            border-radius: 2px;
+        }
+
+        &>div:nth-child(1) {
+            background-color: $beige;
+            width: 8px;
+            height: 25px;
+            position: absolute;
+            left: 40px;
+            top: 15px;
+
+        }
+
+        &>div:nth-child(2) {
+            background-color: $beige;
+            width: 8px;
+            height: 30px;
+            position: absolute;
+            left: 29px;
+            top: 13px;
+            transform: rotate(45deg);
+        }
+
+        &>div:nth-child(3) {
+            background-color: $beige;
+            width: 8px;
+            height: 25px;
+            position: absolute;
+            left: 40px;
+            top: 40px;
+
+        }
+
+        &>div:nth-child(4) {
+            background-color: $beige;
+            width: 8px;
+            height: 25px;
+            position: absolute;
+            left: 40px;
+            top: 15px;
+
+        }
+
+        &>div:nth-child(5) {
+            background-color: $beige;
+            width: 8px;
+            height: 25px;
+            position: absolute;
+            left: 40px;
+            top: 15px;
+
+        }
+
+        &>div:nth-child(6) {
+            background-color: $beige;
+            width: 8px;
+            height: 25px;
+            position: absolute;
+            left: 40px;
+            top: 15px;
+
+        }
+    }
+}
+
+/* ===== END LOGO ANIMATION =====*/
+/* ===== BUTTON =====*/
+
+.btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 50px;
+
+    .tim-btn {
+        display: flex;
+        width: 200px;
+        height: 60px;
+        font-size: 25px;
+        background-color: $dark-gray;
+        color: $green;
+        justify-content: center;
+        align-items: center;
+        margin: 0 20px;
+    }
+}
+
+.progress-container {
+    background-color: $dark-gray;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+/* ===== END BUTTON =====*/
+/* ===== FORM =====*/
+
+.container-formular {
+    margin: 100px auto 50px auto;
+    width: 550px;
+    height: 700px;
+    position: relative;
+
+
+
+
+    &>.form-div1 {
+        width: 550px;
+        height: 700px;
+        background-color: #000;
+        border-radius: 20px;
+        border: 4px solid $orang;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 4;
+        box-shadow: 0 8px 6px -6px $orang;
+    }
+
+    &>.form-div2 {
+        width: 550px;
+        height: 700px;
+        background-color: #000;
+        border-radius: 20px;
+        border: 4px solid $orang;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 3;
+        transform: translate(20px, -20px);
+        box-shadow: 0 8px 6px -6px $orang;
+    }
+
+    &>.form-div3 {
+        width: 550px;
+        height: 700px;
+        background-color: #000;
+        border-radius: 20px;
+        border: 4px solid $orang;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 2;
+        transform: translate(40px, -40px);
+        box-shadow: 0 8px 6px -6px $orang;
+        overflow: hidden;
+    }
+
+}
+
+/* ===== CHECK 1 =====*/
+
+
+#radio-animation1:checked~.form-section-bg .container-formular>.form-div1 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 4;
+    transform: translate(0px, 0px);
+
+}
+
+#radio-animation1:checked~.form-section-bg .container-formular>.form-div2 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 3;
+    transform: translate(20px, -20px);
+}
+
+#radio-animation1:checked~.form-section-bg .container-formular>.form-div3 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 2;
+    transform: translate(40px, -40px);
+}
+
+/* ===== CHECK 2 =====*/
+
+#radio-animation2:checked~.form-section-bg .container-formular>.form-div1 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    transform: translate(690px, -40px);
+    z-index: 2;
+    left: -650px;
+}
+
+#radio-animation2:checked~.form-section-bg .container-formular>.form-div2 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 4;
+    transform: translate(0px, 0px);
+}
+
+#radio-animation2:checked~.form-section-bg .container-formular>.form-div3 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 3;
+    transform: translate(20px, -20px);
+}
+
+
+/* ===== CHECK 3 =====*/
+
+#radio-animation3:checked~.form-section-bg .container-formular>.form-div1 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 3;
+    transform: translate(670px, -20px);
+    left: -650px;
+}
+
+#radio-animation3:checked~.form-section-bg .container-formular>.form-div2 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    transform: translate(690px, -40px);
+    z-index: 2;
+    left: -650px;
+}
+
+#radio-animation3:checked~.form-section-bg .container-formular>.form-div3 {
+    transition-property: transform, z-index, left;
+    transition-delay: 0s, 0.5s, 0.5s;
+    transition-duration: 0.5s, 0s, 0.5s;
+    z-index: 4;
+    transform: translate(0px, 0px);
+}
+
+/* ===== END FORM ===== */
+
+.form-section-bg {
+    padding: 20px 0 50px 0;
+    background-color: $dark-gray;
+    border-radius: 0;
+}
